@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <header >
+        <h1>Movie Reviews Centeral</h1>
+        <nav>
+            <ul>
+                <li><a href="#latest_reviews">Latest Reviews</a></li>
+                <li><a href="#top_rated">Top Rated</a></li>
+                <li><a href="#contact_us">Contact Us</a></li>
+                <li><a href="#about_us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section id="latest_reviews">
+          <h2>Latest Reviews</h2>
+          <article>
+            <h3> Movie Title 1</h3>
+            <img src="" alt=" Movie 1 Poster">
+            <p> Review Summary...</p>
+            <video src="d:\ddd\VID_20231201_035254_468.mp4" controls width="150" height="200"></video>
+            <a href="full_rewiews1.html">Read full reviews</a>
+          </article>
+        </section>
+
+        <section id="top_rated">
+        <h2>Top Rated Movies</h2> 
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                    <th>Genre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Top Movie 1</td>
+                    <td>2020</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>Action</td>
+                </tr>
+            </tbody>
+        </table>   
+        </section>
+        <aside>
+        <h2>Related Links</h2>
+        <ul>
+          <li><a href="upcoming_movies.html">Upcoming Movies</a></li>
+          <li><a href="directors_interviews.html">Interviews with Directors</a></li>
+        </ul>
+        </aside>
+        <section id="contact_us">
+            <h2>Contact Us</h2>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br>
+                <label for="genre" >Favorite Movie genre</label>
+
+                <select name="genre" id="genre">
+                    <optgroup>
+                <option value="action">Action</option>
+                <option value="comedy">comedy</option>
+                <option value="drama">Drama</option>
+                </optgroup>
+                <optgroup>
+                    <option value="war">War</option>
+                    <option value="fighter">Fighter</option>
+                    <option value="animation">Animation</option>
+                </optgroup>
+                </select><br>
+
+                
+                <label for="message">Message:</label>
+                <textarea name="Message" id="message"></textarea><br>
+                <input type="checkbox" name="checkbox" id="checked">Subscribe to newsletter. <br>
+                <input type="button" value="send">
+            </form>
+        </section>
+
+       <footer id="fooeter">
+        <p>&copy;2024 Movie Reviews.All right reserved.</p>
+       </footer> 
+
+</body>
+</html>
